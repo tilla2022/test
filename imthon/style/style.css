@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    padding-top: 20px;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+ul  {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    
+}
+/* navbar start */
+nav , ul{
+    display: flex;
+    
+}
+.header__ul{
+    margin-right: 587px;
+}
+.header__hr{
+    margin-top: 25px;
+}
+.na__con{
+    display: flex;
+}
+ul, a {
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #222222;
+}
+/* ul,:nth-of-type(4) {
+    margin-left:  75px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
+} */
+.nav__link{
+    margin-left:  75px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
+    padding: 12px 32px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav img{
+    padding: 31px 0;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+/* navbar emd */
+
+/* perfectful start */
+.perfectful__con{
+    display: flex;   
+    justify-content: space-between;
+}
+.apple__play{
+    display: flex;
+    flex-direction: column;
+    margin-left: -30px;
+    margin-top: 15px;
+}
+.apple__play img{
+    margin-bottom: 18px;
+}
+.perfect-box h2{
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 45px;
+    /* identical to box height, or 120% */
+    margin-bottom: 20px;
+}
+.perfect-box p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    color: #222222;
+}
+.perfect__play{
+    margin-bottom: 21px;
+    margin-top: 200px;
+    display: flex;
+    
+}
+.perfect__play img{
+    margin-right: 10px;
+}
+
+/* perfectful end */
+
+/* yaer start */
+.year__con{
+    display: flex;
+    margin-top: 112px;
+    justify-content: space-between;
+}
+.year__box{
+    margin-top: 300px;
+}
+.year__box h2{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 120% */
+    margin-bottom: 22px;
+    
+    color: #222222;
+    
+}
+.year__p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    margin-bottom: 12px;
+    
+    color: #222222;
+}
+.year__pp{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    
+    color: #222222;
+    
+}
+/* yaer end */
+
+/* zen start */
+.zen{
+    margin-top: 131px;
+}
+.zen-con{
+    display: flex;
+    justify-content: space-between;
+}
+.zen__box{
+    margin-top: 190px;
+}
+.zen__h{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 120% */
+    
+    
+    color: #222222;
+    
+}
+.zen__p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    margin-top: 22px;
+    margin-bottom: 12px;
+    
+    color: #222222;
+}
+.zen__pp{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    margin-bottom: 17px;
+    
+    color: #222222;
+}
+.zen__ppp{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    
+    color: #222222;
+}
+/* zen end */
+
+/* and start */
+.and{
+    margin-top: 200px;
+}
+.and__box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.and__h{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #222222;
+}
+.and__p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    width: 528px;
+    text-align: center;
+    margin-bottom: 46px;
+    color: #222222;
+    
+}
+.and__btn{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    
+    color: #222222;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 48px;
+    padding: 12px 32px;
+    transition: 0.5s;
+}
+.and__btn:hover {
+    background: black;
+    color: #fff;
+    transform: scale(1.4);
+}
+/* and end */
+
+/* imgs start */
+.imgs{
+    margin-top: 73px;
+}
+.imgs__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 95px;
+}
+.imgs__boxx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* imgs end */
+
+/* shopping */
+.shopping{
+    margin-top: 77px;
+}
+.shopping__con{
+    display: flex;
+    justify-content: space-between;
+}
+.shopping__box{
+    margin-top: 210px;
+}
+.shopping__h{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 120% */
+    
+    
+    color: #222222;
+    
+}
+.shopping__p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    width: 420px;
+    margin-top: 22px;
+    margin-bottom: 30px;
+    color: #222222;
+}
+.shop__imgss{
+    margin-left: 24px;
+}
+/* shopping */
+
+/* withhh start */
+.withh__con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 187px;
+}
+.withh__box{
+    margin-top: 140px;
+}
+.withh__h{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* identical to box height, or 120% */
+    
+    
+    color: #222222;
+}
+.withh_p{
+    width: 447px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    
+    color: #222222;
+    
+}
+.withh_pp{
+    width: 385px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    
+    
+    color: #222222;
+    
+    
+}
+/* withhh end */
+
+/* many start */
+.many__con{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 117px;
+}
+.many__box{
+    margin-top: 170px;
+}
+.many__h{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* or 120% */
+    
+    
+}
+.many_p{
+    width: 380px;
+    margin-top: 19px;
+    margin-bottom: 15px;
+}
+.many_pp{
+    width: 380px;
+}
+
+/* many end */
+
+/* quic start */
+.quic{
+    margin-top: 149px;
+}
+.quic__con{
+    display: flex;
+    justify-content: space-between;
+}
+.quic__h{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    /* or 120% */
+    
+    
+    color: #222222;
+    
+}
+.quic__p{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    width: 433px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+    color: #222222;
+    
+}
+.quic__pp{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    width: 421px;
+    margin-bottom: 33px;
+    color: #222222;
+}
+.quic__playm{
+    margin-left: 21px;
+}
+.quic__hr{
+    margin-top: 142px;
+    margin-bottom: 68px;
+    max-width: 1600px;
+    position: relative;
+    left: -14px;
+}
+
+/* quic start */
+/* footer start */
+.footer__con {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.footer__end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-bottom: 71px;
+    
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 130% */
+    
+    
+    color: #AAAAAA;
+}
+.footer__end p{
+    width: 836px;
+}
+/* footer end*/
+
+
+@media screen and (max-width:1000px) {
+   nav , 
+   .perfectful__con , 
+   .year__con , 
+   .zen-con , 
+   .imgs__box ,
+   .imgs__boxx,
+   .shopping__con,
+   .withh__con,
+   .many__con,
+   .quic__con {
+   
+       flex-direction: column;
+   }
+   .container{
+       margin-left: 20px;
+   }
+   .and .container{
+       margin-left: 107px;
+   }
+   .footer__end{
+       flex-direction: column;
+   }
+} 
